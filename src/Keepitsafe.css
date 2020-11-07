@@ -1,0 +1,226 @@
+.Notes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-left: 2.55%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* myNotes css */
+.notesData{
+  background-color: rgba(248, 182, 0, 0.3);
+  margin: 5px;
+  border-radius: 10px;
+  height: 300px;
+  min-width: 250px;
+  width: fit-content;
+  max-width: 250px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+}
+.notestitle{
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+  text-transform:capitalize;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 0px;
+  border-bottom: orangered solid 2px;
+  overflow: hidden;
+}
+.notesdes{
+  font-size: 15px;
+  max-height: 200px;
+  padding-left: 10px;
+  overflow: hidden;
+}
+.notestime{
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 500;
+  margin-top: 0px;
+  padding-left: 10px;
+}
+
+/* I button css */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(10px);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: medium;
+  opacity: 0;
+transition: 0.5s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color:  transparent transparent  black  transparent;
+  
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.ibutton{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    outline: none;
+    box-shadow:1px 0px 5px black;
+    background-color: white;
+    font-size: 30px;
+    margin-left: 90%;
+    margin-top:5px;
+}
+.tooltiptext span{
+    color: rgb(9, 235, 243);
+}
+.tooltip p{
+    color: red;
+}
+
+
+/* header css */
+
+.header{
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(10px);
+  color: white;
+  display: flex;
+  justify-content:space-between ;
+  flex-wrap: wrap;
+  
+}
+
+#name{
+  margin-top: 10px;
+  font-size: 30px;
+  margin-left: 30px;
+
+}
+#logo{
+  font-size: 45px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  transition: 0.2s;
+}
+
+#logo:hover{
+  color: white;
+}
+#profile{
+  font-size: 30px;
+  margin-top: 15px;
+  color: rgba(255, 255, 255);
+  transition: 0.2s;
+  margin-right: 30px;
+}
+
+/* footer css */
+#copyright {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(211, 211, 211);
+  text-align: center;
+  margin: 0;
+}
+
+/* add notes css */
+center .form{
+  width: 350px;
+  height:fit-content;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: solid rgba(0, 0, 0, 0.11) 2px;
+  box-shadow:0px 1px 4px 1px rgba(0, 0, 0, 0.103);
+}
+.title{
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+  border: none;
+  width: 250px;
+  outline: none;
+  font-weight: bolder;
+  text-transform:capitalize;
+  border-bottom: 2px solid rgb(255, 255, 255);
+transition: .3s;
+}
+
+.title:hover{
+  border-bottom: 2px solid black;
+
+}
+.title:active{
+  border-bottom: 2px solid black;
+
+}
+.discription{
+  outline: none; 
+  border: none; 
+  margin-top: 5px;
+  max-width: 250px;
+  min-width: 250px;
+  width: 250px;
+  font-size: 15px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.034);
+  border-radius: 10px;
+  padding: 10px;
+  text-transform:capitalize;
+
+}
+.discription::-webkit-scrollbar{
+  width: 3px;
+  color: grey;
+}
+.timestamp{
+  color: rgba(0, 0, 0, 0.4);
+  text-align: right;
+  margin-right: 45px;
+  font-weight: 500;
+  margin-top: 0px;
+  
+}
+
+.button{
+  background-color: orangered;
+  outline: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 5px;
+  position: relative;
+  margin-left: 90%;
+  margin-top: -30px;
+  
+}
