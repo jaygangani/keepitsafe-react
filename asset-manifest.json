@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/keepitsafe-react/static/css/main.19de9d26.chunk.css",
+    "main.js": "/keepitsafe-react/static/js/main.a1ea7104.chunk.js",
+    "main.js.map": "/keepitsafe-react/static/js/main.a1ea7104.chunk.js.map",
+    "runtime-main.js": "/keepitsafe-react/static/js/runtime-main.86bb545e.js",
+    "runtime-main.js.map": "/keepitsafe-react/static/js/runtime-main.86bb545e.js.map",
+    "static/js/2.a90f1f8f.chunk.js": "/keepitsafe-react/static/js/2.a90f1f8f.chunk.js",
+    "static/js/2.a90f1f8f.chunk.js.map": "/keepitsafe-react/static/js/2.a90f1f8f.chunk.js.map",
+    "index.html": "/keepitsafe-react/index.html",
+    "static/css/main.19de9d26.chunk.css.map": "/keepitsafe-react/static/css/main.19de9d26.chunk.css.map",
+    "static/js/2.a90f1f8f.chunk.js.LICENSE.txt": "/keepitsafe-react/static/js/2.a90f1f8f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86bb545e.js",
+    "static/js/2.a90f1f8f.chunk.js",
+    "static/css/main.19de9d26.chunk.css",
+    "static/js/main.a1ea7104.chunk.js"
+  ]
+}
